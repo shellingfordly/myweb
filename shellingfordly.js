@@ -223,6 +223,38 @@ let morebg = Math.random();
 /*== alwaysStudy模块js end ==*/
 
 
+/*== mylife模块js begin ==*/
+// 模拟奔跑动作
+let act = 0;
+function iActive(){
+    if (act==0) {
+        $("#me").removeClass("icon-paobu1").addClass('icon-run');
+        act=1;
+    }
+    else if(act==1) {
+        $("#me").removeClass('icon-run').addClass('icon-sport');
+        act=2;
+    } else {
+        $("#me").removeClass('icon-sport').addClass('icon-run');
+        act=1;
+    }
+}
+setInterval(iActive,1000/300)
+// 绕地球旋转
+let itop, ileft, deg = 0;
+function iRun(){
+    itop = 200-Math.cos(Math.PI*deg/180)*200 -10;
+    ileft = 200+Math.sin(Math.PI*deg/180)*200-10;
+    $(".run")[0].style.top = itop/134.9+"rem";
+    $(".run")[0].style.left = ileft/134.9+"rem";
+    $(".run").css("transform",`rotateZ(${deg}deg)`);
+    deg++;
+    requestAnimationFrame(iRun);
+}
+requestAnimationFrame(iRun);
+/*== mylife模块js end ==*/
+
+
 /*== footer模块js begin ==*/
 // 改变html的font-size
 let html = document.querySelector("html");

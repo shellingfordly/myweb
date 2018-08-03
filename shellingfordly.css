@@ -263,7 +263,7 @@ div.box:hover .street {
     font-size: 0.11119rem;
 }
 
-/*进度条*/
+/*进度框*/
 .music .basebar {
     position: relative;
     z-index: 2;
@@ -273,11 +273,12 @@ div.box:hover .street {
     cursor: pointer;
     background: #fff;
 }
+/*进度条*/
 .basebar .progressbar {
     display: block;
     width: 100%;
     height: 0.02223rem;
-    background: #fff;
+    background: #333;
 }
 
 /*控制按键*/

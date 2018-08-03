@@ -1,0 +1,630 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-31 12:55:38
+ * @version $Id$
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #a53;
+}
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*== 头部 begin ==*/
+/*134.9px*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 0.37rem;
+    background: linear-gradient(to bottom,#222 20%,#000 80%,#222 100%);
+}
+/*welcome*/
+header .welcome {
+    width: 2.41rem;
+    margin: auto;
+    line-height: 0.37rem;
+    color: #fff;
+    font-size: 0.118rem;
+}
+.welcome span:nth-child(1) {
+    margin-right: 0.148rem;
+}
+/*== 头部 end ==*/
+
+
+/*== 内容分类部分 begin ==*/
+.category {
+    position: relative;
+    height: 4.744rem;
+    background: url(../img/categorybg.jpg) no-repeat center/cover;
+}
+ .category:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background: #000;
+}
+/*the same box*/
+.category .box {
+    position: relative;
+    z-index: 1;
+    margin-left: 0.37rem;
+}
+.category .webbox {
+    height: 1.4825rem;
+    padding: 0px 0.074rem;
+    border-radius: 0.074rem;
+    border: 0.02223869rem solid #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+.box .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.02223869rem;
+    height: 0.778rem;
+    background: #fff;
+}
+.category a.newweb .posi {
+    font-size: 0.35rem;
+    line-height: 1.4825rem;
+}
+.category a.newweb .auti {
+    display: none;
+    font-size: 0.148rem;
+    line-height: 0.296rem;
+    transform: rotateY(180deg);
+}
+
+/*mylife*/
+.category div.mylife {
+    width: 1.237rem;
+    margin-top: 0.7412rem;
+    margin-left: 0.074rem;
+    transform: rotateZ(-10deg);
+    background: url(https://gratisography.com/thumbnails/gratisography-333-thumbnail.jpg) no-repeat center/cover;
+}
+div.box:hover .mylife {
+    transform: rotateZ(-10deg) rotateY(180deg);
+}
+.box .lifeline {
+    left: 0.593rem;
+    transform: rotateZ(-5deg);
+}
+
+/*always study*/
+.category div.study {
+    width: 2.2535rem;
+    margin-top: 2.2238rem;
+    transform: rotateZ(5deg);
+    background: url(https://gratisography.com/thumbnails/gratisography-346-thumbnail.jpg) no-repeat center/cover;
+}
+div.box:hover .study {
+    transform: rotateZ(5deg) rotateY(180deg);
+}
+.category div.box .studyline {
+    height: 2.23869rem;
+    left: 1.3343rem;
+    transform: rotateZ(5deg);
+}
+.box div.study a.newweb .auti {
+    line-height: 0.37rem;
+}
+
+/*the far afield*/
+.category div.far {
+    width: 1.564rem;
+    margin-top: 0.9636rem;
+    transform: rotateZ(-10deg);
+    background: url(https://gratisography.com/thumbnails/gratisography-369-thumbnail.jpg) no-repeat center/cover;
+}
+div.box:hover .far {
+    transform: rotateZ(-10deg) rotateY(180deg);
+}
+.category div.box .farline {
+    height: 1rem;
+    left: 0.667rem;
+    transform: rotateZ(-5deg);
+}
+
+/*street life*/
+.category div.street {
+    width: 2.357rem;
+    margin-top: 1.63rem;
+    transform: rotateZ(10deg);
+    background: url(https://gratisography.com/thumbnails/gratisography-341-thumbnail.jpg) no-repeat center/cover;
+}
+div.box:hover .street {
+    transform: rotateZ(10deg) rotateY(180deg);
+}
+.category div.box .streetline {
+    height: 1.7rem;
+    top: -0.037rem;
+    left: 1.48rem;
+    transform: rotateZ(10deg);
+}
+.box div.street a.newweb .auti {
+    line-height: 0.48rem;
+}
+/*== 内容分类部分 end ==*/
+
+
+/*== studylife begin ==*/
+#studylife {
+    position: relative;
+    width: 100%;
+    height: 5.3rem;
+    z-index: 10;
+    background: #fff;
+    color: #000;
+}
+
+/*= 版块相同的排版 begin =*/
+
+/*标题*/
+.thelife .title {
+    padding-top: 0.371rem;
+}
+.thelife .title h1 {
+    width: 2.95rem;
+    margin: auto;
+    font-size: .5rem;
+    font-weight: lighter;
+}
+
+/*副标题*/
+.title .subtitle {
+    margin-top: 0.445rem;
+    margin-bottom: 0.667rem;
+    font-size: 0.14825rem;
+    text-align: center;
+}
+
+/*=版块相同的排版 end=*/
+
+/*多媒体*/
+#studylife .multimedia {
+    width: 8.154188rem;
+    margin: auto;
+}
+#studylife .sbox {
+    width: 2.2238rem;
+    height: 2.2238rem;
+    background: #000;
+    border-radius: 0.074128rem;
+}
+#studylife .sbox + .sbox {
+    margin-left:  0.74128rem;
+}
+
+/*---音乐播放器 begin---*/
+#studylife .music {
+    position: relative;
+    background: #121212;
+}
+
+/*歌曲信息*/
+.music .wrapper {
+    padding: 0.2rem;
+    margin-bottom: 0.259rem;
+    text-align: center;
+}
+
+/*歌曲图片*/
+.wrapper .musicimg {
+    width: .74128rem;
+    height: .74128rem;
+    border-radius: 0.037rem;
+    margin-right: 0.2238rem;
+    background: #fff;
+}
+.details p {
+    width: 0.85rem;
+    color: #fff;
+}
+
+/*歌名*/
+.details p.musicname {
+    font-size: 0.13343rem;
+    margin-top: 0.01rem;
+    margin-bottom: 0.14825rem;
+}
+
+/*歌手*/
+.details p.musicer {
+    font-size: 0.11119rem;
+}
+
+/*进度条*/
+.music .basebar {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 0.02223rem;
+    cursor: pointer;
+    background: #fff;
+}
+.basebar .progressbar {
+    display: block;
+    width: 100%;
+    height: 0.02223rem;
+    background: #fff;
+}
+
+/*控制按键*/
+.music .controls {
+    position: absolute;
+    top: 0.9rem;
+    left: 50%;
+    margin-left: -0.74128rem;
+}
+.music .controls i {
+    cursor: pointer;
+    font-size: 0.1853rem;
+    color:  #fff;
+}
+/*---音乐播放器 end---*/
+
+/*---天气查询 begin---*/
+#studylife .weather {
+    position: relative;
+    overflow: hidden;
+}
+.weather .w-info,.weather .w-ganmao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 0.14825rem;
+    transition: 2s;
+}
+.weather .w-ganmao {
+    top: 2.2238rem;
+    width: 100%;
+    height: 100%;
+}
+#studylife .weather:hover > .w-info {
+    top: -2.2238rem;
+}
+#studylife .weather:hover > .w-ganmao {
+    top: 0;
+}
+.weather p{
+    text-align: center;
+    line-height: 0.37rem;
+    font-size: 0.14825rem;
+    color: #fff;
+}
+.weather .w-info p i {
+    margin-left: 0.14825rem;
+    font-size: 0.22238rem;
+}
+/*---天气查询 end---*/
+
+/* more */
+#studylife .multimedia .other {
+    text-align: center;
+    background: url(../img/more.jpg) no-repeat center/cover;
+}
+.other p.more a {
+    line-height: 2.2238rem;
+    font-size: 0.2rem;
+}
+/*== studylife end ==*/
+
+
+
+/*== lifenofear begin ==*/
+#lifenofear {
+    position: relative;
+    z-index: 10;
+    height: 4.4477rem;
+    background: #000;
+}
+#lifenofear:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    margin-top: -1.1119rem;
+    margin-left: -1.1119rem;
+    display: block;
+    content: "";
+    width: 2.2238rem;
+    height: 2.2238rem;
+    background: url(../img/streetbg.jpg) no-repeat center/cover;
+}
+
+/*--standtitle相同模板--*/
+section .standtitle h1 {
+    position: absolute;
+    font-size: .5rem;
+    font-weight: lighter;
+    color: #fff;
+}
+.standtitle .subtitle {
+    position: absolute;
+    width: 0.14825rem;
+    font-size: 0.14825rem;
+}
+.standtitle .subtitle span {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.standtitle p {
+    color: #fff;
+}
+/*--standtitle相同模板 end--*/
+
+/*标题*/
+.nofeartitle h1 {
+    top: 1.853rem;
+    right: -0.37rem;
+    transform: rotateZ(90deg);
+}
+
+/*副标题*/
+.nofeartitle .subtitle {
+    top: 0.5rem;
+    right: 2.3rem;
+}
+
+/*lifenofear文字描述*/
+#lifenofear .nofeartitle .text {
+    position: absolute;
+    top: 1.4825rem;
+    left: 0.74128rem;
+    text-indent: 0.37064rem;
+    width: 5.189rem;
+    font-size: 0.22238rem;
+    margin: auto;
+}
+/*== lifenofear end ==*/
+
+
+/*== farafield begin ==*/
+/*标题*/
+#farafield {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 0.22238rem;
+    background: #fff;
+
+}
+#farafield .fartitle h1  {
+    width: 2.13rem;
+}
+
+/*照片墙*/
+#farafield .farimg {
+    width: 8.154rem;
+    margin: auto;
+}
+.farimg div {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.37rem;
+    border-radius: 0.0741rem;
+    background: #bbb;
+}
+
+/*图片*/
+.farimg div a img {
+    width: 2.2238rem;
+    height: 2.2238rem;
+    vertical-align: middle;
+}
+.farimg div + div {
+    margin-left: 0.74128rem;
+}
+.farimg div:nth-child(4),.farimg div:nth-child(7) {
+    margin-left: 0;
+}
+
+/*图片链接*/
+.farimg div a:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+}
+.farimg div a:hover:after {
+    display: block;
+}
+.farimg div a:hover > p {
+    display: block;
+}
+
+/*图片文字*/
+.farimg div a p{
+    position: absolute;
+    top: 0.74128rem;
+    left: 0;
+    display: none;
+    z-index: 2;
+    font-size: 0.22238rem;
+    color: #fff;
+}
+/*== farafield end ==*/
+
+
+
+/*== mylife begin ==*/
+#mylife {
+    position: relative;
+    z-index: 10;
+    height: 4.4477rem;
+    background: #000;
+}
+
+/*mylife标题*/
+#mylife .mylifetitle h1 {
+    top: 1.2rem;
+    left: 0.3rem;
+    transform: rotateZ(-90deg);
+}
+
+/*mylife副标题*/
+#mylife .subtitle {
+    top: .8rem;
+    left: 2rem;
+    width: 0.14825rem;
+}
+
+/*地球*/
+#mylife .mybox {
+    position: absolute;
+    top: 0.741289rem;
+    left: 3.3358rem;
+    width: 2.965rem;
+    height: 2.965rem;
+    border-radius: 50%;
+    background: url(../img/earch.jpeg) no-repeat center/cover;
+}
+.mybox .text {
+    position: absolute;
+    top: 0.667rem;
+    left: 1.63rem;
+    width: 3.7rem;
+    font-size: .14825rem;
+    text-align: right;
+    line-height: .3rem;
+}
+
+/*奔跑的小孩*/
+.mybox .run {
+    position: absolute;
+    width: .14825rem;
+    height: .14825rem;
+}
+.mybox .run i {
+    position: absolute;
+    font-size: .14825rem;
+    color: #fff;
+}
+/*== mylife end ==*/
+
+
+/*== 留言板 begin ==*/
+#messageboard {
+    position: relative;
+    z-index: 10;
+    height: 4.4477rem;
+    background: #fff;
+}
+
+/*
+
+还没写的内容
+
+*/
+
+
+/*== 留言板 end ==*/
+
+
+
+/*== 底部 begin ==*/
+footer {
+    position: relative;
+    width: 100%;
+    height: 1.223rem;
+    padding-top: 1rem;
+    background: url(https://gratisography.com/thumbnails/gratisography-14-thumbnail.jpg) no-repeat center/cover;
+}
+
+/*iconbox阿里图标*/
+.iconbox {
+    position: absolute;
+    top: -.5rem;
+    left: 50%;
+    margin-left: -1.8rem;
+
+}
+.iconbox  i {
+    cursor: pointer;
+    color: #fee;
+    font-size: 0.1853rem;
+}
+.iconbox a + a {
+    margin-left: 0.2223rem;
+}
+.iconbox i:hover {
+    color: #ebb;
+}
+
+/*置顶按键*/
+#topping {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 2.2238rem;
+    width: 0.2965rem;
+    height: 0.2965rem;
+    z-index: 10;
+    cursor: pointer;
+    background: #bbb;
+    color: #333;
+    font-size: 0.2965rem;
+    text-align: center;
+}
+
+/*结束文字*/
+footer div.mood {
+    width: 4.5rem;
+    margin: auto;
+}
+div.mood p {
+    text-indent: 0.22238rem;
+    font-size: 0.1037rem;
+    color: #fee;
+    text-align: center;
+}
+div.mood p + p {
+    font-size: 0.08895rem;
+}
+.mood .views {
+    margin-top: 0.148rem;
+}
+.mood .date {
+    margin-top: 0.074rem;
+}
+/*== 底部 end ==*/
+/* end */

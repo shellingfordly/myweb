@@ -59,7 +59,7 @@ header .welcome {
 .category {
     position: relative;
     height: 4.744rem;
-    background: url(../img/categorybg.jpg) no-repeat center/cover;
+    background: url(http://r.photo.store.qq.com/psb?/V10ek6uz45a3ox/Yz1qfuhIjEKHJjI4kut85IPU2EXFYhD6s0aAjPrOnRs!/r/dDMBAAAAAAAA) no-repeat center/cover;
 }
  .category:after {
     position: absolute;
@@ -335,7 +335,7 @@ div.box:hover .street {
 /* more */
 #studylife .multimedia .other {
     text-align: center;
-    background: url(../img/more.jpg) no-repeat center/cover;
+    background: url(http://r.photo.store.qq.com/psb?/V10ek6uz45a3ox/qX9bV0nXd5EWsH.d.E0rKLPUD5en.LhyK7QCIhK6B*o!/r/dIMAAAAAAAAA) no-repeat center/cover;
 }
 .other p.more a {
     line-height: 2.2238rem;
@@ -363,7 +363,7 @@ div.box:hover .street {
     content: "";
     width: 2.2238rem;
     height: 2.2238rem;
-    background: url(../img/streetbg.jpg) no-repeat center/cover;
+    background: url(http://r.photo.store.qq.com/psb?/V10ek6uz45a3ox/hTeYne70uTAy31H9R95khPFv6vMqL*ch0phGPidmRWI!/r/dDABAAAAAAAA) no-repeat center/cover;
 }
 
 /*--standtitle相同模板--*/
@@ -516,7 +516,7 @@ section .standtitle h1 {
     width: 2.965rem;
     height: 2.965rem;
     border-radius: 50%;
-    background: url(../img/earch.jpeg) no-repeat center/cover;
+    background: url(http://r.photo.store.qq.com/psb?/V10ek6uz45a3ox/ADONFkcKm502Qke3GzX.alcrbtvjTICdAt6mF8U4zbA!/r/dDABAAAAAAAA) no-repeat center/cover;
 }
 .mybox .text {
     position: absolute;

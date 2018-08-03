@@ -4,6 +4,7 @@
  * @date    2018-07-31 15:25:18
  * @version $Id$
  */
+// begin
 /*== category模块js begin ==*/
 // 显示/隐藏每个模块的介绍
 $(".box").mouseenter(function (){
@@ -286,3 +287,4 @@ if (localStorage.pagecount){
 localStorage.setItem("naem","111");
 $(".times").html(localStorage.pagecount);
 /*== footer模块js end ==*/
+// end

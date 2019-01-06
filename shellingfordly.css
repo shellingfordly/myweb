@@ -544,13 +544,13 @@ section .standtitle h1 {
 
 
 /*== 留言板 begin ==*/
-#messageboard {
+/*#messageboard {
     position: relative;
     z-index: 10;
     height: 4.4477rem;
     background: #fff;
 }
-
+*/
 /*
 
 还没写的内容
@@ -568,7 +568,7 @@ footer {
     width: 100%;
     height: 1.223rem;
     padding-top: 1rem;
-    background: url(https://gratisography.com/thumbnails/gratisography-14-thumbnail.jpg) no-repeat center/cover;
+    background: url() no-repeat center/cover;
 }
 
 /*iconbox阿里图标*/
@@ -581,7 +581,7 @@ footer {
 }
 .iconbox  i {
     cursor: pointer;
-    color: #fee;
+    color: #000;
     font-size: 0.1853rem;
 }
 .iconbox a + a {
@@ -615,7 +615,7 @@ footer div.mood {
 div.mood p {
     text-indent: 0.22238rem;
     font-size: 0.1037rem;
-    color: #fee;
+    color: #000;
     text-align: center;
 }
 div.mood p + p {
